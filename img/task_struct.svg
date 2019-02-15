@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="996px" height="353px" viewBox="0 0 996 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>task_struct</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="239" height="285" rx="11"></rect>
+        <rect id="path-2" x="26" y="118" width="186" height="115"></rect>
+        <rect id="path-3" x="26" y="118" width="21" height="20"></rect>
+        <rect id="path-4" x="0" y="0" width="239" height="285" rx="11"></rect>
+        <rect id="path-5" x="26" y="118" width="186" height="115"></rect>
+        <rect id="path-6" x="26" y="118" width="21" height="20"></rect>
+        <rect id="path-7" x="0" y="0" width="239" height="285" rx="11"></rect>
+        <rect id="path-8" x="26" y="118" width="186" height="115"></rect>
+        <rect id="path-9" x="26" y="118" width="21" height="20"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="task_struct" transform="translate(-1.000000, 0.000000)">
+            <g id="task-struct3" transform="translate(54.000000, 0.000000)">
+                <g id="Rectangle-5">
+                    <use fill="#FAE7C8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="238" height="284" rx="11"></rect>
+                </g>
+                <text id="struct-task_struct" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
+                    <tspan x="21" y="36">struct task_struct</tspan>
+                </text>
+                <g id="Rectangle-6">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#979797" stroke-width="1" x="26.5" y="118.5" width="185" height="114"></rect>
+                </g>
+                <text id="struct-list-head-*-p" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#32323B">
+                    <tspan x="55" y="149">struct list-head</tspan>
+                    <tspan x="55" y="176">* prev</tspan>
+                    <tspan x="55" y="203">* next</tspan>
+                </text>
+                <g id="Rectangle-7">
+                    <use fill="#7E7A7A" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#979797" stroke-width="1" x="26.5" y="118.5" width="20" height="19"></rect>
+                </g>
+            </g>
+            <g id="task-struct2" transform="translate(364.000000, 0.000000)">
+                <g id="Rectangle-5">
+                    <use fill="#FAE7C8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="238" height="284" rx="11"></rect>
+                </g>
+                <text id="struct-task_struct" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
+                    <tspan x="27" y="36">struct task_struct</tspan>
+                </text>
+                <g id="Rectangle-6">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#979797" stroke-width="1" x="26.5" y="118.5" width="185" height="114"></rect>
+                </g>
+                <text id="struct-list-head-*-p" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#32323B">
+                    <tspan x="55" y="149">struct list-head</tspan>
+                    <tspan x="55" y="176">* prev</tspan>
+                    <tspan x="55" y="203">* next</tspan>
+                </text>
+                <g id="Rectangle-7">
+                    <use fill="#7E7A7A" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#979797" stroke-width="1" x="26.5" y="118.5" width="20" height="19"></rect>
+                </g>
+            </g>
+            <g id="task-struct" transform="translate(678.000000, 0.000000)">
+                <g id="Rectangle-5">
+                    <use fill="#FAE7C8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="238" height="284" rx="11"></rect>
+                </g>
+                <g id="Rectangle-6">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <rect stroke="#979797" stroke-width="1" x="26.5" y="118.5" width="185" height="114"></rect>
+                </g>
+                <g id="Rectangle-7">
+                    <use fill="#7E7A7A" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <rect stroke="#979797" stroke-width="1" x="26.5" y="118.5" width="20" height="19"></rect>
+                </g>
+                <text id="struct-task_struct" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
+                    <tspan x="28" y="36">struct task_struct</tspan>
+                </text>
+                <text id="struct-list-head-*-p" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#32323B">
+                    <tspan x="55" y="149">struct list-head</tspan>
+                    <tspan x="55" y="176">* prev</tspan>
+                    <tspan x="55" y="203">* next</tspan>
+                </text>
+            </g>
+            <g id="arrows-task-struct" transform="translate(0.000000, 156.000000)" stroke="#979797" stroke-linecap="square">
+                <path d="M301.5,1.5 L354.584838,1.5" id="Line-14"></path>
+                <path id="Line-14-decoration-1" d="M354.584838,1.5 L343.784838,-1.5 L343.784838,4.5 L354.584838,1.5 Z"></path>
+                <path d="M614.5,4.5 L667.584838,4.5" id="Line-14"></path>
+                <path id="Line-14-decoration-1" d="M667.584838,4.5 L656.784838,1.5 L656.784838,7.5 L667.584838,4.5 Z"></path>
+                <path d="M354.5,33.5 L301.415162,33.5" id="Line-14"></path>
+                <path id="Line-14-decoration-1" d="M301.415162,33.5 L312.215162,36.5 L312.215162,30.5 L301.415162,33.5 Z"></path>
+                <path d="M668.084838,34 L615,34" id="Line-14"></path>
+                <path id="Line-14-decoration-1" d="M615,34 L625.8,37 L625.8,31 L615,34 Z"></path>
+                <path d="M996.5,65.5 L996.5,196.5" id="Line-15"></path>
+                <path d="M996.5,196.5 L2.49949698,196.5" id="Line-16"></path>
+                <path d="M1.5,196.5 L1.5,64.5" id="Line-17"></path>
+                <path d="M2.5,64.5 L44.5,64.5" id="Line-18"></path>
+                <path id="Line-18-decoration-1" d="M44.5,64.5 L33.7,61.5 L33.7,67.5 L44.5,64.5 Z"></path>
+                <path d="M995.5,65.5 L942.5,65.5" id="Line-13"></path>
+                <path id="Line-13-decoration-1" d="M942.5,65.5 L953.3,68.5 L953.3,62.5 L942.5,65.5 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

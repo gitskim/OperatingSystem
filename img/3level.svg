@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="950px" height="840px" viewBox="0 0 950 840" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>3level</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="183.061224" height="203"></rect>
+        <rect id="path-2" x="0" y="56" width="333" height="40"></rect>
+        <rect id="path-3" x="155" y="56" width="98" height="40"></rect>
+        <rect id="path-4" x="61" y="56" width="98" height="40"></rect>
+        <rect id="path-5" x="252" y="56" width="81" height="40"></rect>
+        <rect id="path-6" x="252" y="56" width="81" height="40"></rect>
+        <rect id="path-7" x="0" y="57" width="383" height="40"></rect>
+        <rect id="path-8" x="290" y="57" width="93" height="40"></rect>
+        <rect id="path-9" x="0" y="83" width="237" height="40"></rect>
+        <rect id="path-10" x="114.447108" y="0" width="182.552892" height="119"></rect>
+        <rect id="path-11" x="111.938776" y="0" width="183.061224" height="118"></rect>
+        <rect id="path-12" x="0.368029011" y="0" width="182.631971" height="116"></rect>
+        <rect id="path-13" x="0.368029011" y="0" width="182.631971" height="112"></rect>
+        <rect id="path-14" x="0" y="0" width="122" height="33"></rect>
+        <rect id="path-15" x="121" y="0" width="62" height="33"></rect>
+        <rect id="path-16" x="0" y="0" width="122" height="33"></rect>
+        <rect id="path-17" x="121" y="0" width="62" height="33"></rect>
+        <rect id="path-18" x="0" y="0" width="122" height="33"></rect>
+        <rect id="path-19" x="121" y="0" width="62" height="33"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3level" transform="translate(1.000000, -4.000000)">
+            <text id="12-bit---flags" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                <tspan x="251" y="254">12 bit - flags</tspan>
+            </text>
+            <g id="Group-3" transform="translate(362.000000, 263.000000)">
+                <g id="Rectangle-12">
+                    <use fill="#F1EAEA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="182.061224" height="202"></rect>
+                </g>
+                <path d="M168.5,155.5 L345.5,73.5" id="Line-14" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-14-decoration-1" d="M345.5,73.5 L334.439456,75.3177924 L336.961605,80.7619422 L345.5,73.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <text id=".-.-." font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" line-spacing="8" fill="#32323B">
+                    <tspan x="87" y="132">.</tspan>
+                    <tspan x="87" y="140">.</tspan>
+                    <tspan x="87" y="148">.</tspan>
+                </text>
+                <path d="M1.5,173.5 L181.5,173.5" id="Line-12" stroke-opacity="0.522078804" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,146.5 L181.5,146.5" id="Line-12" stroke-opacity="0.522078804" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-9" transform="translate(0.000000, 129.000000)">
+                <path d="M294.5,148.5 L361.5,336.5" id="Line-13" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-13-decoration-1" d="M361.5,336.5 L360.700329,325.319637 L355.048518,327.333846 L361.5,336.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Step-2." font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" fill="#BD10E0" text-decoration="underline">
+                    <tspan x="5" y="28">Step 2.</tspan>
+                </text>
+                <text id="Step-3." font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" fill="#BD10E0" text-decoration="underline">
+                    <tspan x="297" y="63">Step 3.</tspan>
+                </text>
+                <text id="Step-5." font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" fill="#BD10E0" text-decoration="underline">
+                    <tspan x="379" y="163">Step 5.</tspan>
+                </text>
+                <text id="Step-4." font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" fill="#BD10E0" text-decoration="underline">
+                    <tspan x="328" y="366">Step 4.</tspan>
+                </text>
+                <text id="Step-6." font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" fill="#BD10E0" text-decoration="underline">
+                    <tspan x="592" y="138">Step 6.</tspan>
+                </text>
+                <text id="Step-7." font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" fill="#BD10E0" text-decoration="underline">
+                    <tspan x="593" y="433">Step 7.</tspan>
+                </text>
+                <text id="Go-up-to-one-of-4-ta" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" line-spacing="16" fill="#BD10E0">
+                    <tspan x="17" y="73">Go up to one of 4 tables from </tspan>
+                    <tspan x="17" y="89">cr3, which points to the </tspan>
+                    <tspan x="17" y="105">bottom of the table.</tspan>
+                </text>
+                <text id="Use-the-first-9-bits" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" line-spacing="16" fill="#BD10E0">
+                    <tspan x="297" y="91">Use the first 9 bits to choose </tspan>
+                    <tspan x="297" y="107">an entry within the table. </tspan>
+                </text>
+                <text id="Table-entry-contains" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" line-spacing="16" fill="#BD10E0">
+                    <tspan x="327" y="390">Table entry contains the </tspan>
+                    <tspan x="327" y="406">physical address of the </tspan>
+                    <tspan x="327" y="422">bottom of the next level </tspan>
+                    <tspan x="327" y="438">table. </tspan>
+                </text>
+                <text id="Use-the-second-9-bit" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" line-spacing="16" fill="#BD10E0">
+                    <tspan x="377" y="187">Use the second 9 bits </tspan>
+                    <tspan x="377" y="203">of directory value to </tspan>
+                    <tspan x="377" y="219">go up within the </tspan>
+                    <tspan x="377" y="235">given 2nd level table.  </tspan>
+                </text>
+                <text id="Table-entry-contains" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" line-spacing="16" fill="#BD10E0">
+                    <tspan x="599" y="165">Table </tspan>
+                    <tspan x="599" y="181">entry </tspan>
+                    <tspan x="599" y="197">contains </tspan>
+                    <tspan x="599" y="213">the </tspan>
+                    <tspan x="599" y="229">bottom of  </tspan>
+                    <tspan x="599" y="245">physical </tspan>
+                    <tspan x="599" y="261">frame </tspan>
+                    <tspan x="599" y="277">address</tspan>
+                </text>
+                <text id="12-bit-offset-is-use" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" line-spacing="16" fill="#BD10E0">
+                    <tspan x="593" y="454">12-bit </tspan>
+                    <tspan x="593" y="470">offset is </tspan>
+                    <tspan x="593" y="486">used to </tspan>
+                    <tspan x="593" y="502">locate the </tspan>
+                    <tspan x="593" y="518">address </tspan>
+                    <tspan x="593" y="534">within the </tspan>
+                    <tspan x="593" y="550">given </tspan>
+                    <tspan x="593" y="566">frame. </tspan>
+                </text>
+                <text id="Step-1." font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" fill="#BD10E0" text-decoration="underline">
+                    <tspan x="0" y="612">Step 1.</tspan>
+                </text>
+                <path d="M141.5,0.5 L141.5,44.5" id="Line-11" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-11-decoration-1" d="M141.5,44.5 L144.5,33.7 L138.5,33.7 L141.5,44.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <text id="2^3-bytes-=-64-bits" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                    <tspan x="119" y="664">2^3 bytes = 64 bits</tspan>
+                    <tspan x="119" y="689">= 2^12/2^9</tspan>
+                    <tspan x="119" y="714">28 bits not for address.</tspan>
+                </text>
+            </g>
+            <g id="2level">
+                <g id="PAE" transform="translate(116.000000, 49.000000)">
+                    <g id="20bit" transform="translate(0.000000, 2.000000)">
+                        <g id="Rectangle-12">
+                            <use fill="#E9F7E3" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#979797" stroke-width="1" x="0.5" y="56.5" width="332" height="39"></rect>
+                        </g>
+                        <g id="Rectangle-14">
+                            <use fill="#F8E5E5" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#979797" stroke-width="1" x="155.5" y="56.5" width="97" height="39"></rect>
+                        </g>
+                        <g id="Rectangle-14">
+                            <use fill="#F8E5E5" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <rect stroke="#979797" stroke-width="1" x="61.5" y="56.5" width="97" height="39"></rect>
+                        </g>
+                        <g id="Rectangle-13">
+                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#979797" stroke-width="1" x="252.5" y="56.5" width="80" height="39"></rect>
+                        </g>
+                        <g id="Rectangle-13">
+                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <rect stroke="#979797" stroke-width="1" x="252.5" y="56.5" width="80" height="39"></rect>
+                        </g>
+                        <text id="2-bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="11" y="19">2 bit</tspan>
+                        </text>
+                        <text id="9-bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="187" y="19">9 bit</tspan>
+                        </text>
+                        <text id="9-bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="92" y="18">9 bit</tspan>
+                        </text>
+                        <text id="12-bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="269" y="19">12 bit</tspan>
+                        </text>
+                        <text id="offset" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="271" y="81">offset</tspan>
+                        </text>
+                        <text id="Directory" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="73" y="81">Directory</tspan>
+                        </text>
+                        <text id="Directory" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="170" y="82">Directory</tspan>
+                        </text>
+                        <g id="arrow" transform="translate(30.500000, 41.000000) rotate(-180.000000) translate(-30.500000, -41.000000) translate(0.000000, 25.000000)" stroke="#979797">
+                            <path d="M0,0 C3.0562101,11.0026712 6.28707929,16.4098535 10.5889717,16.6777819 C22.9918007,17.4502488 27.2521602,-1.5290728 31,32" id="Path-2"></path>
+                            <path d="M61,0 C58.0423773,11.0026712 54.9157297,16.4098535 50.752608,16.6777819 C38.7498703,17.4502488 34.6269418,-1.5290728 31,32" id="Path-2"></path>
+                        </g>
+                        <g id="arrow" transform="translate(205.000000, 43.000000) rotate(-180.000000) translate(-205.000000, -43.000000) translate(156.000000, 27.000000)" stroke="#979797">
+                            <path d="M0,0 C4.92937113,11.0026712 10.1404505,16.4098535 17.0789866,16.6777819 C37.0835495,17.4502488 43.955097,-1.5290728 50,32" id="Path-2"></path>
+                            <path d="M98,0 C93.2678037,11.0026712 88.2651676,16.4098535 81.6041729,16.6777819 C62.3997925,17.4502488 55.8031069,-1.5290728 50,32" id="Path-2"></path>
+                        </g>
+                        <g id="arrow" transform="translate(110.000000, 41.000000) rotate(-180.000000) translate(-110.000000, -41.000000) translate(61.000000, 25.000000)" stroke="#979797">
+                            <path d="M0,0 C4.92937113,11.0026712 10.1404505,16.4098535 17.0789866,16.6777819 C37.0835495,17.4502488 43.955097,-1.5290728 50,32" id="Path-2"></path>
+                            <path d="M98,0 C93.2678037,11.0026712 88.2651676,16.4098535 81.6041729,16.6777819 C62.3997925,17.4502488 55.8031069,-1.5290728 50,32" id="Path-2"></path>
+                        </g>
+                        <g id="arrow" transform="translate(292.500000, 40.000000) rotate(-180.000000) translate(-292.500000, -40.000000) translate(252.000000, 24.000000)" stroke="#979797">
+                            <path d="M0,0 C4.04208433,11.0026712 8.31516938,16.4098535 14.004769,16.6777819 C30.4085106,17.4502488 36.0431796,-1.5290728 41,32" id="Path-2"></path>
+                            <path d="M81,0 C77.0565031,11.0026712 72.8876396,16.4098535 67.3368107,16.6777819 C51.3331604,17.4502488 45.8359224,-1.5290728 41,32" id="Path-2"></path>
+                        </g>
+                    </g>
+                    <g id="Group-8" transform="translate(393.000000, 0.000000)">
+                        <g id="Rectangle-12">
+                            <use fill="#E3EAF7" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <rect stroke="#979797" stroke-width="1" x="0.5" y="57.5" width="382" height="39"></rect>
+                        </g>
+                        <text id="24-bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="121" y="18">24 bit</tspan>
+                        </text>
+                        <text id="24-bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="172" y="152">36 bit</tspan>
+                        </text>
+                        <text id="Frame-number" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="83" y="83">Frame number</tspan>
+                        </text>
+                        <g id="Rectangle-13">
+                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <rect stroke="#979797" stroke-width="1" x="290.5" y="57.5" width="92" height="39"></rect>
+                        </g>
+                        <text id="offset" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="312" y="82">offset</tspan>
+                        </text>
+                        <g id="arrow" transform="translate(147.500000, 41.000000) rotate(-180.000000) translate(-147.500000, -41.000000) translate(3.000000, 25.000000)" stroke="#979797">
+                            <path d="M0,0 C14.6431781,11.0026712 30.1231979,16.4098535 50.7347967,16.6777819 C110.160304,17.4502488 130.572906,-1.5290728 148.52988,32" id="Path-2"></path>
+                            <path d="M289,0 C275.151413,11.0026712 260.511394,16.4098535 241.018254,16.6777819 C184.817387,17.4502488 165.512445,-1.5290728 148.52988,32" id="Path-2"></path>
+                        </g>
+                        <g id="arrow" transform="translate(2.000000, 97.000000)" stroke="#979797">
+                            <path d="M0,0 C19.12596,11.0026712 39.3449478,16.4098535 66.266468,16.6777819 C143.884172,17.4502488 170.545776,-1.5290728 194,32" id="Path-2"></path>
+                            <path d="M377,0 C358.958502,11.0026712 339.885951,16.4098535 314.490909,16.6777819 C241.274209,17.4502488 216.124345,-1.5290728 194,32" id="Path-2"></path>
+                        </g>
+                        <g id="arrow" transform="translate(336.500000, 47.000000) rotate(-180.000000) translate(-336.500000, -47.000000) translate(290.000000, 31.000000)" stroke="#979797">
+                            <path d="M0,0 C4.64091164,11.0026712 9.54704633,16.4098535 16.0795496,16.6777819 C34.9134751,17.4502488 41.3829099,-1.5290728 47.0740741,32" id="Path-2"></path>
+                            <path d="M93,0 C88.4722813,11.0026712 83.6858085,16.4098535 77.3126345,16.6777819 C58.9380731,17.4502488 52.6264294,-1.5290728 47.0740741,32" id="Path-2"></path>
+                        </g>
+                        <text id="12-bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="311" y="24">12 bit</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="&lt;3Level&gt;" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                    <tspan x="156" y="20">&lt;3Level&gt;</tspan>
+                </text>
+                <g id="table" transform="translate(549.000000, 213.000000)">
+                    <g id="tables" transform="translate(128.000000, 0.000000)">
+                        <g id="Group-4" transform="translate(0.000000, 83.000000)">
+                            <rect id="Rectangle-3" fill="#EAE7E7" x="33" y="0" width="236" height="413"></rect>
+                            <path d="M37.3111111,120.5 L270.688889,120.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M37.3111111,81.5 L270.688889,81.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M33.3111111,167.5 L266.688889,167.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M34.3111111,211.5 L267.688889,211.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M34.3111111,256.5 L267.688889,256.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M34.3111111,298.5 L267.688889,298.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M34.3111111,338.5 L267.688889,338.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M34.3111111,376.5 L267.688889,376.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                            <g id="arrow" transform="translate(16.289062, 207.500000) rotate(-270.000000) translate(-16.289062, -207.500000) translate(-190.210938, 191.500000)" stroke="#979797">
+                                <path d="M0,0 C20.6920267,11.0026712 42.5665801,16.4098535 71.6924809,16.6777819 C155.665657,17.4502488 184.510359,-1.5290728 209.885055,32" id="Path-2"></path>
+                                <path d="M412.405723,0 C392.439732,11.0026712 371.332707,16.4098535 343.228767,16.6777819 C262.202019,17.4502488 234.369411,-1.5290728 209.885055,32" id="Path-2"></path>
+                            </g>
+                        </g>
+                        <g id="32bit-frame" transform="translate(32.000000, 0.000000)">
+                            <g id="Rectangle-12">
+                                <use fill="#E3F2F7" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                <rect stroke="#979797" stroke-width="1" x="0.5" y="83.5" width="236" height="39"></rect>
+                            </g>
+                            <text id="Frame" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                                <tspan x="35.3963964" y="108">Frame </tspan>
+                            </text>
+                            <text id="Physical-size-=-2^36" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                                <tspan x="15" y="150">Physical size = 2^36 bytes</tspan>
+                                <tspan x="15" y="175">~= 64 GB  </tspan>
+                            </text>
+                            <g id="arrow" transform="translate(120.274775, 67.000000) rotate(-180.000000) translate(-120.274775, -67.000000) translate(1.774775, 51.000000)" stroke="#979797">
+                                <path d="M0,0 C11.9842442,11.0026712 24.653375,16.4098535 41.5222837,16.6777819 C90.157203,17.4502488 106.86325,-1.5290728 121.559565,32" id="Path-2"></path>
+                                <path d="M236.522875,0 C225.188938,11.0026712 213.20728,16.4098535 197.253738,16.6777819 C151.257923,17.4502488 135.458406,-1.5290728 121.559565,32" id="Path-2"></path>
+                            </g>
+                            <text id="2^12-bytes-(fixed)" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                                <tspan x="74" y="18.5">2^12 bytes </tspan>
+                                <tspan x="74" y="43.5">(fixed)</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="2^24-=-16-mil-frames" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                        <tspan x="82.988" y="278">2^24 </tspan>
+                        <tspan x="0.35" y="303">= 16 mil frames </tspan>
+                    </text>
+                </g>
+                <g id="4boxes" transform="translate(0.000000, 263.000000)">
+                    <g id="blue">
+                        <g id="cr3" transform="translate(69.290323, 434.000000)">
+                            <path d="M26.0806452,14 L46.1129032,14" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                            <path id="Line-8-decoration-1" d="M46.1129032,14 L35.3129032,11 L35.3129032,17 L46.1129032,14 Z" stroke="#979797" stroke-linecap="square"></path>
+                            <text font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                                <tspan x="0" y="18">cr3</tspan>
+                            </text>
+                        </g>
+                        <ellipse id="Oval" stroke="#BD10E0" fill-opacity="0" fill="#D8D8D8" cx="81.8709677" cy="450" rx="21.7741935" ry="19"></ellipse>
+                        <g id="Rectangle-12">
+                            <use fill="#E3F2F7" fill-rule="evenodd" xlink:href="#path-10"></use>
+                            <rect stroke="#979797" stroke-width="1" x="114.947108" y="0.5" width="181.552892" height="118"></rect>
+                        </g>
+                        <g id="arrow" transform="translate(98.643720, 61.000000) rotate(-270.000000) translate(-98.643720, -61.000000) translate(37.643720, 45.000000)" stroke="#979797">
+                            <path d="M0,0 C6.03957859,10.902704 12.4243125,16.2607582 20.9255662,16.5262522 C45.4356155,17.2917007 53.8547932,-1.51518007 61.261147,31.7092569" id="Path-2"></path>
+                            <path d="M121.02812,0 C115.135848,10.902704 108.906839,16.2607582 100.612933,16.5262522 C76.7006899,17.2917007 68.486858,-1.51518007 61.261147,31.7092569" id="Path-2"></path>
+                        </g>
+                        <g id="arrow" transform="translate(103.000000, 174.500000) rotate(-270.000000) translate(-103.000000, -174.500000) translate(51.500000, 158.500000)" stroke="#979797">
+                            <path d="M0,0 C5.12654598,11.0026712 10.5460685,16.4098535 17.7621461,16.6777819 C38.5668915,17.4502488 45.7133009,-1.5290728 52,32" id="Path-2"></path>
+                            <path d="M103,0 C97.9720414,11.0026712 92.6567405,16.4098535 85.5794337,16.6777819 C65.1747795,17.4502488 58.165801,-1.5290728 52,32" id="Path-2"></path>
+                        </g>
+                        <text id="512-entries-=-1024/2" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="0" y="44">512 entries </tspan>
+                            <tspan x="0" y="69">= 1024/2</tspan>
+                        </text>
+                    </g>
+                    <g id="green" transform="translate(2.000000, 118.000000)">
+                        <g id="Rectangle-12">
+                            <use fill="#E9F6F3" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <rect stroke="#979797" stroke-width="1" x="112.438776" y="0.5" width="182.061224" height="117"></rect>
+                        </g>
+                        <text id="512-page-table-entri" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                            <tspan x="0" y="40">512 page </tspan>
+                            <tspan x="0" y="65">table </tspan>
+                            <tspan x="0" y="90">entries</tspan>
+                            <tspan x="0" y="115">= 1 page </tspan>
+                            <tspan x="0" y="140">table</tspan>
+                            <tspan x="0" y="165">= 1 page </tspan>
+                            <tspan x="0" y="190">size</tspan>
+                            <tspan x="0" y="215">= 1 frame </tspan>
+                            <tspan x="0" y="240">size</tspan>
+                            <tspan x="0" y="267" font-size="12" line-spacing="20">(page size and </tspan>
+                            <tspan x="0" y="287" font-size="12" line-spacing="20">frame size don’t </tspan>
+                            <tspan x="0" y="307" font-size="12" line-spacing="20">have to be same)</tspan>
+                        </text>
+                    </g>
+                    <g id="yellow" transform="translate(114.000000, 226.000000)">
+                        <g id="Rectangle-12">
+                            <use fill="#F6F5E9" fill-rule="evenodd" xlink:href="#path-12"></use>
+                            <rect stroke="#979797" stroke-width="1" x="0.868029011" y="0.5" width="181.631971" height="115"></rect>
+                        </g>
+                    </g>
+                    <g id="orange" transform="translate(114.000000, 336.000000)">
+                        <g id="Rectangle-12">
+                            <use fill="#FCF0E3" fill-rule="evenodd" xlink:href="#path-13"></use>
+                            <rect stroke="#979797" stroke-width="1" x="0.868029011" y="0.5" width="181.631971" height="111"></rect>
+                        </g>
+                    </g>
+                    <g id="top-entry" transform="translate(114.000000, 415.000000)">
+                        <g id="Rectangle-6">
+                            <use fill="#FCE9DC" fill-rule="evenodd" xlink:href="#path-14"></use>
+                            <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="121" height="32"></rect>
+                        </g>
+                        <g id="Rectangle-6">
+                            <use fill="#DADFE0" fill-rule="evenodd" xlink:href="#path-15"></use>
+                            <rect stroke="#979797" stroke-width="1" x="121.5" y="0.5" width="61" height="32"></rect>
+                        </g>
+                        <text id="2nd-Dir.-number" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" fill="#2E2F34">
+                            <tspan x="7" y="22">2nd Dir. number</tspan>
+                        </text>
+                        <text id="flags" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" fill="#2E2F34">
+                            <tspan x="133" y="22">flags</tspan>
+                        </text>
+                    </g>
+                    <g id="top-entry" transform="translate(114.000000, 0.000000)">
+                        <g id="Rectangle-6">
+                            <use fill="#DCE9FC" fill-rule="evenodd" xlink:href="#path-16"></use>
+                            <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="121" height="32"></rect>
+                        </g>
+                        <g id="Rectangle-6">
+                            <use fill="#DADFE0" fill-rule="evenodd" xlink:href="#path-17"></use>
+                            <rect stroke="#979797" stroke-width="1" x="121.5" y="0.5" width="61" height="32"></rect>
+                        </g>
+                        <text id="2nd-Dir.-number" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" fill="#2E2F34">
+                            <tspan x="7" y="22">2nd Dir. number</tspan>
+                        </text>
+                        <text id="flags" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" fill="#2E2F34">
+                            <tspan x="133" y="22">flags</tspan>
+                        </text>
+                    </g>
+                    <g id="top-entry" transform="translate(362.000000, 171.000000)">
+                        <g id="Rectangle-6">
+                            <use fill="#F7E4E4" fill-rule="evenodd" xlink:href="#path-18"></use>
+                            <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="121" height="32"></rect>
+                        </g>
+                        <g id="Rectangle-6">
+                            <use fill="#DADFE0" fill-rule="evenodd" xlink:href="#path-19"></use>
+                            <rect stroke="#979797" stroke-width="1" x="121.5" y="0.5" width="61" height="32"></rect>
+                        </g>
+                        <text id="Frame-number" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" fill="#2E2F34">
+                            <tspan x="13" y="22">Frame number</tspan>
+                        </text>
+                        <text id="flags" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal" fill="#2E2F34">
+                            <tspan x="133" y="22">flags</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="12-bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                    <tspan x="251" y="752">12 bit</tspan>
+                </text>
+                <g id="arrow" transform="translate(234.000000, 710.000000)" stroke="#979797">
+                    <path d="M0,0 C3.15479753,7.56433643 6.4898883,11.2817743 10.9305514,11.4659751 C23.7334717,11.9970461 28.1312621,-1.05123755 32,22" id="Path-2"></path>
+                    <path d="M63,0 C59.9437899,7.56433643 56.7129207,11.2817743 52.4110283,11.4659751 C40.0081993,11.9970461 35.7478398,-1.05123755 32,22" id="Path-2"></path>
+                </g>
+                <g id="arrow" transform="translate(117.000000, 710.000000)" stroke="#979797">
+                    <path d="M0,0 C9.07004289,16.8478402 18.6584289,25.1275882 31.4253353,25.5378535 C68.2337311,26.7206935 80.8773785,-2.34139273 92,49" id="Path-2"></path>
+                    <path d="M181,0 C172.225719,16.8478402 162.949998,25.1275882 150.599404,25.5378535 C114.991282,26.7206935 102.759927,-2.34139273 92,49" id="Path-2"></path>
+                </g>
+                <path d="M116.5,325.5 L296.5,325.5" id="Line-12" stroke-opacity="0.522078804" stroke="#979797" stroke-linecap="square"></path>
+                <text id=".-.-." font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" line-spacing="8" fill="#32323B">
+                    <tspan x="195" y="356">.</tspan>
+                    <tspan x="195" y="364">.</tspan>
+                    <tspan x="195" y="372">.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

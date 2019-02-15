@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="587px" height="252px" viewBox="0 0 587 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>16bit</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="125" y="98" width="208" height="40"></rect>
+        <rect id="path-2" x="0" y="58" width="208" height="40"></rect>
+        <rect id="path-3" x="125" y="58" width="83" height="80"></rect>
+        <rect id="path-4" x="0" y="0" width="333" height="40"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16bit" transform="translate(1.000000, -4.000000)">
+            <g id="Rectangle-10">
+                <use fill="#F9FBE2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="125.5" y="98.5" width="207" height="39"></rect>
+            </g>
+            <g id="Rectangle-10">
+                <use fill="#EBE2FB" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="58.5" width="207" height="39"></rect>
+            </g>
+            <g id="arrow" transform="translate(104.000000, 41.000000) rotate(-180.000000) translate(-104.000000, -41.000000) translate(0.000000, 25.000000)" stroke="#979797">
+                <path d="M0,0 C10.4502668,11.0026712 21.497755,16.4098535 36.2074516,16.6777819 C78.6171249,17.4502488 93.1848057,-1.5290728 106,32" id="Path-2"></path>
+                <path d="M208,0 C197.944083,11.0026712 187.313481,16.4098535 173.158867,16.6777819 C132.349559,17.4502488 118.331602,-1.5290728 106,32" id="Path-2"></path>
+            </g>
+            <g id="arrow" transform="translate(229.000000, 154.000000) rotate(-360.000000) translate(-229.000000, -154.000000) translate(125.000000, 138.000000)" stroke="#979797">
+                <path d="M0,0 C10.4502668,11.0026712 21.497755,16.4098535 36.2074516,16.6777819 C78.6171249,17.4502488 93.1848057,-1.5290728 106,32" id="Path-2"></path>
+                <path d="M208,0 C197.944083,11.0026712 187.313481,16.4098535 173.158867,16.6777819 C132.349559,17.4502488 118.331602,-1.5290728 106,32" id="Path-2"></path>
+            </g>
+            <g id="Rectangle-11">
+                <use fill-opacity="0.414119112" fill="#F8EBF7" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#979797" stroke-width="1" x="125.5" y="58.5" width="82" height="79"></rect>
+            </g>
+            <text font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                <tspan x="83" y="18">16bit</tspan>
+            </text>
+            <text font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                <tspan x="212" y="189">16bit</tspan>
+            </text>
+            <text id="12bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                <tspan x="145" y="85">12bit</tspan>
+            </text>
+            <text id="4bit" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                <tspan x="41" y="85">4bit</tspan>
+            </text>
+            <text id="overlap" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                <tspan x="139" y="124">overlap</tspan>
+            </text>
+            <text id="which-64k-chunk-it-i" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                <tspan x="25" y="144">which 64k </tspan>
+                <tspan x="25" y="169">chunk it is</tspan>
+            </text>
+            <text id="where-in-the-64k-chu" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                <tspan x="369" y="123">where in the 64k chunk it is</tspan>
+            </text>
+            <path d="M57.5,92.5 L57.5,122.5" id="Line-12" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-12-decoration-1" d="M57.5,122.5 L60.5,111.7 L54.5,111.7 L57.5,122.5 Z" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M333.5,118.5 L363.5,118.5" id="Line-12" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-12-decoration-1" d="M363.5,118.5 L352.7,115.5 L352.7,121.5 L363.5,118.5 Z" stroke="#979797" stroke-linecap="square"></path>
+            <g id="Group-8" transform="translate(0.000000, 216.000000)">
+                <g id="Rectangle-12">
+                    <use fill="#E3F2F7" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="332" height="39"></rect>
+                </g>
+                <text id="2^20-=-1-mb-physical" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
+                    <tspan x="49" y="25">2^20 = 1 mb physical memory</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

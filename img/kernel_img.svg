@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="853px" height="554px" viewBox="0 0 853 554" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>kernel_img</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="188" height="419"></rect>
+        <rect id="path-2" x="0" y="0" width="188" height="419"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kernel_img" transform="translate(-1.000000, -5.000000)">
+            <g id="32" transform="translate(0.000000, 48.000000)">
+                <g id="Group" transform="translate(97.000000, 15.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FCE6E8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="187" height="418"></rect>
+                    </g>
+                    <rect id="Rectangle-2" fill="#F8F2F2" x="1" y="1" width="186" height="91"></rect>
+                </g>
+                <g id="Group-2">
+                    <path d="M97.5,399.5 L283.5,399.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M98.5,364.5 L284.5,364.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M98.5,330.5 L284.5,330.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M98.4891895,107.5 L283.5,107.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <text id="4G" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="65" y="20">4G</tspan>
+                    </text>
+                    <text id="3G" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="65" y="111">3G</tspan>
+                    </text>
+                    <text id="BRK" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="0" y="337">BRK</tspan>
+                    </text>
+                    <text id="static" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="167" y="389">static</tspan>
+                    </text>
+                    <text id="text" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="171" y="422">text</tspan>
+                    </text>
+                    <text id="heap" font-family="Avenir-Medium, Avenir" font-size="20" font-weight="400" fill="#5C60B3">
+                        <tspan x="167" y="353">heap</tspan>
+                    </text>
+                    <text id="stack" font-family="Avenir-Medium, Avenir" font-size="20" font-weight="400" fill="#5C60B3">
+                        <tspan x="168" y="131">stack</tspan>
+                    </text>
+                    <text id="kernel" font-family="Avenir-Medium, Avenir" font-size="20" font-weight="400" fill="#5C60B3">
+                        <tspan x="164" y="64">kernel</tspan>
+                    </text>
+                    <path d="M96.5,330.5 L39.5,330.5" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+                    <path id="Line-2-decoration-1" d="M39.5,330.5 L50.3,333.5 L50.3,327.5 L39.5,330.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="64" transform="translate(579.000000, 54.000000)">
+                <g id="Group" transform="translate(0.000000, 10.000000)">
+                    <g id="Rectangle">
+                        <use fill="#E6EEFC" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="187" height="418"></rect>
+                    </g>
+                    <rect id="Rectangle-2" fill="#F2F6F8" x="1" y="1" width="186" height="153"></rect>
+                </g>
+                <g id="Group-2">
+                    <g id="arrow" transform="translate(95.703125, 330.917969) rotate(-180.000000) translate(-95.703125, -330.917969) translate(24.703125, 302.417969)" fill="#D8D8D8">
+                        <rect id="Rectangle-2" x="24" y="0" width="99" height="32"></rect>
+                        <polygon id="Triangle" points="71 57 0 32 142 32"></polygon>
+                    </g>
+                    <path d="M0.5,394.5 L186.5,394.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,300.5 L187.5,300.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.48918951,164.5 L186.5,164.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M183.5,300.5 L235.5,300.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                    <path id="Line-3-decoration-1" d="M235.5,300.5 L224.7,297.5 L224.7,303.5 L235.5,300.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.5,358.5 L186.5,358.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <text id="256-TB" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="196" y="20">256 TB</tspan>
+                    </text>
+                    <text id="128-TB" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="196" y="169">128 TB</tspan>
+                    </text>
+                    <text id="BRK" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="238" y="309">BRK</tspan>
+                    </text>
+                    <text id="static" font-family="Avenir-Light, Avenir" font-size="20" font-weight="300" fill="#5C60B3">
+                        <tspan x="70" y="384">static</tspan>
+                    </text>
+                    <text id="text" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#5C60B3">
+                        <tspan x="74" y="417">text</tspan>
+                    </text>
+                    <text id="heap" font-family="Avenir-Medium, Avenir" font-size="20" font-weight="400" fill="#5C60B3">
+                        <tspan x="70" y="348">heap</tspan>
+                    </text>
+                    <g id="Group-22" transform="translate(20.000000, 165.000000)">
+                        <g id="arrow" fill="#D8D8D8">
+                            <rect id="Rectangle-2" x="24" y="0" width="99" height="32"></rect>
+                            <polygon id="Triangle" points="71 57 0 32 142 32"></polygon>
+                        </g>
+                        <text id="stack" font-family="Avenir-Medium, Avenir" font-size="20" font-weight="400" fill="#5C60B3">
+                            <tspan x="51" y="24">stack</tspan>
+                        </text>
+                    </g>
+                    <text id="kernel" font-family="Avenir-Medium, Avenir" font-size="24" font-weight="400" fill="#5C60B3">
+                        <tspan x="61" y="88">kernel</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-3" transform="translate(159.000000, 0.000000)">
+                <rect id="Rectangle-3" fill="#EAE7E7" x="234" y="66" width="91" height="416"></rect>
+                <rect id="Rectangle-4" fill="#D8D8D8" x="234" y="66" width="91" height="107"></rect>
+                <text id="proc2" font-family="Avenir-Book, Avenir" font-size="24" font-weight="normal" fill="#32323B">
+                    <tspan x="487" y="552">proc2</tspan>
+                </text>
+                <text id="64bit" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
+                    <tspan x="496" y="24">64bit</tspan>
+                </text>
+                <text id="proc1" font-family="Avenir-Book, Avenir" font-size="24" font-weight="normal" fill="#32323B">
+                    <tspan x="0" y="552">proc1</tspan>
+                </text>
+                <text id="32bit" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
+                    <tspan x="0" y="24">32bit</tspan>
+                </text>
+                <text id="RAM" font-family="Avenir-Book, Avenir" font-size="24" font-weight="normal" fill="#32323B">
+                    <tspan x="251" y="552">RAM</tspan>
+                </text>
+                <path d="M235.5,218.5 L324.5,218.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M235.5,263.5 L324.5,263.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M235.5,307.5 L324.5,307.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M235.5,351.5 L324.5,351.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M235.5,396.5 L324.5,396.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M235.5,438.5 L324.5,438.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M427.5,432.5 L311.5,420.5" id="Line-10" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-10-decoration-1" d="M311.5,420.5 L321.933974,424.595386 L322.551369,418.627235 L311.5,420.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M235.5,481.5 L324.5,481.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M235.5,173.5 L324.5,173.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M109.5,176.5 L250.5,198.5" id="Line-5" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-5-decoration-1" d="M250.5,198.5 L240.291599,193.870902 L239.36662,199.799175 L250.5,198.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <polyline id="Line-6" stroke="#979797" stroke-linecap="square" points="437.726562 241.5 370.503906 241.5 294.5 241.5"></polyline>
+                <path id="Line-6-decoration-1" d="M294.5,241.5 L305.3,244.5 L305.3,238.5 L294.5,241.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M112.5,390.5 L242.5,282.5" id="Line-7" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-7-decoration-1" d="M242.5,282.5 L232.275685,287.093842 L236.109803,291.708984 L242.5,282.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M438.5,399.5 L304.5,334.5" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-8-decoration-1" d="M304.5,334.5 L312.907815,341.912736 L315.526444,336.51433 L304.5,334.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M115.5,434.5 L237.5,381.5" id="Line-9" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-9-decoration-1" d="M237.5,381.5 L226.398999,383.051704 L228.789707,388.554841 L237.5,381.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M119.5,461.5 L246.5,454.5" id="Line-11" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-11-decoration-1" d="M246.5,454.5 L235.551264,452.09892 L235.881472,458.089827 L246.5,454.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Kernel" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#32323B">
+                    <tspan x="251" y="128">Kernel</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

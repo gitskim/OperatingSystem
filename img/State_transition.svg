@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="892px" height="666px" viewBox="0 0 892 666" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>State_transition</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="243" height="205" rx="86"></rect>
+        <filter x="-2.9%" y="-2.4%" width="105.8%" height="106.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="221" height="205" rx="86"></rect>
+        <filter x="-3.2%" y="-2.4%" width="106.3%" height="106.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="226" height="205" rx="86"></rect>
+        <filter x="-3.1%" y="-2.4%" width="106.2%" height="106.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="State_transition" transform="translate(4.000000, -4.000000)">
+            <g id="task-struct3" transform="translate(336.000000, 459.000000)">
+                <g id="Rectangle-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F6E6EC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="242" height="204" rx="86"></rect>
+                </g>
+                <g id="Group-15" transform="translate(9.000000, 46.000000)" font-size="20">
+                    <text id="TASK_INTERRUPTIBLE" font-family="Avenir-Heavy, Avenir" font-weight="600" fill="#32323B">
+                        <tspan x="0" y="20">TASK_INTERRUPTIBLE</tspan>
+                    </text>
+                    <text id="TASK_UNINTERRUPTIBLE" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#696661">
+                        <tspan x="0" y="46">TASK_UNINTERRUPTIBLE</tspan>
+                    </text>
+                </g>
+                <text id="(Sleeping)" font-family="Avenir-Light, Avenir" font-size="18" font-weight="300" fill="#000000">
+                    <tspan x="83" y="147">(Sleeping)</tspan>
+                </text>
+            </g>
+            <g id="task-struct3" transform="translate(0.000000, 33.000000)">
+                <g id="Rectangle-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#E1F1F2" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="220" height="204" rx="86"></rect>
+                </g>
+                <text id="TASK_RUNNING" font-family="Avenir-Heavy, Avenir" font-size="22" font-weight="600" fill="#32323B">
+                    <tspan x="29" y="75">TASK_RUNNING</tspan>
+                </text>
+                <text id="(on-Run-Queue)" font-family="Avenir-Light, Avenir" font-size="18" font-weight="300" fill="#32323B">
+                    <tspan x="52" y="127">(on Run Queue)</tspan>
+                </text>
+            </g>
+            <g id="task-struct3" transform="translate(658.000000, 33.000000)">
+                <g id="Rectangle-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#E5EBF6" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="225" height="204" rx="86"></rect>
+                </g>
+                <text id="TASK_RUNNING" font-family="Avenir-Heavy, Avenir" font-size="22" font-weight="600" fill="#32323B">
+                    <tspan x="28" y="74">TASK_RUNNING</tspan>
+                </text>
+                <text id="(Running-on-CPU)" font-family="Avenir-Light, Avenir" font-size="20" font-weight="300" fill="#32323B">
+                    <tspan x="35" y="131">(Running on CPU)</tspan>
+                </text>
+            </g>
+            <g id="cpu_to_rq" transform="translate(231.000000, 34.000000)">
+                <path d="M0.5,75.5 L421.5,75.5" id="Line-24" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-24-decoration-1" d="M421.5,75.5 L410.7,72.5 L410.7,78.5 L421.5,75.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <text id="e.g.-higher-priority" font-family="Avenir-Medium, Avenir" font-size="18" font-weight="400" fill="#000000">
+                    <tspan x="59" y="31">e.g. higher priority </tspan>
+                    <tspan x="59" y="56">process is added</tspan>
+                </text>
+                <g id="code" transform="translate(220.000000, 0.000000)">
+                    <text id="schedule()-{-pick_ne" font-family="Avenir-Medium, Avenir" font-size="14" font-weight="400">
+                        <tspan x="0" y="15" fill="#BD10E0">	schedule() {</tspan>
+                        <tspan x="0" y="34" fill="#BD10E0">		pick_next_task();</tspan>
+                        <tspan x="0" y="53" fill="#BD10E0">		</tspan>
+                        <tspan x="56" y="53" fill="#9013FE">context_switch()</tspan>
+                        <tspan x="158.956" y="53" fill="#BD10E0">;</tspan>
+                        <tspan x="0" y="72" fill="#BD10E0">	}</tspan>
+                    </text>
+                    <rect id="Rectangle-18" stroke="#979797" x="20.5" y="0.5" width="160" height="75"></rect>
+                </g>
+                <text id="&lt;Preemption&gt;" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#32323B">
+                    <tspan x="30" y="119">&lt;Preemption&gt;</tspan>
+                </text>
+            </g>
+            <g id="event_ready" transform="translate(40.000000, 259.000000)">
+                <path d="M324,200 L207.5,0.5" id="Line-27" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-27-decoration-1" d="M207.5,0.5 L210.355536,11.3390918 L215.536796,8.31344381 L207.5,0.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <g id="Group-21" transform="translate(0.000000, 24.000000)">
+                    <g id="code" transform="translate(0.000000, 72.000000)">
+                        <text id="wake_up_process()-{" font-family="Avenir-Medium, Avenir" font-size="14" font-weight="400" fill="#BD10E0">
+                            <tspan x="9" y="14">wake_up_process() {</tspan>
+                            <tspan x="9" y="33">	try_to_wake_up() {</tspan>
+                            <tspan x="9" y="52">		p-&gt;state = TASK_WAKING</tspan>
+                            <tspan x="9" y="71">		select_task_rq();		</tspan>
+                            <tspan x="9" y="90">	}</tspan>
+                            <tspan x="9" y="109">}</tspan>
+                        </text>
+                        <rect id="Rectangle-18" stroke="#979797" x="0.5" y="0.5" width="246" height="113"></rect>
+                    </g>
+                    <text id="&lt;Event-is-Ready&gt;" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#000000">
+                        <tspan x="37" y="20">&lt;Event is Ready&gt;</tspan>
+                    </text>
+                    <text id="e.g.-file-is-ready-t" font-family="Avenir-Medium, Avenir" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="13" y="55">e.g. file is ready to be read</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="rq_to_cpu" transform="translate(245.000000, 0.000000)">
+                <path d="M421.5,233.5 L0.5,233.5" id="Line-24" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-24-decoration-1" d="M0.5,233.5 L11.3,236.5 L11.3,230.5 L0.5,233.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <text id="&lt;It’s-the-first-on-t" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#32323B">
+                    <tspan x="56" y="20">&lt;It’s the first on the run queue&gt;</tspan>
+                </text>
+                <text id="e.g.-timer-interrupt" font-family="Avenir-Medium, Avenir" font-size="18" font-weight="400" fill="#32323B">
+                    <tspan x="17" y="195">e.g. timer interrupt  </tspan>
+                </text>
+                <g id="code" transform="translate(192.000000, 120.000000)">
+                    <text id="task_tick()-{-schedu" font-family="Avenir-Medium, Avenir" font-size="14" font-weight="400">
+                        <tspan x="9" y="14" fill="#BD10E0">task_tick() {</tspan>
+                        <tspan x="9" y="33" fill="#BD10E0">	schedule() {</tspan>
+                        <tspan x="9" y="52" fill="#BD10E0">		pick_next_task();</tspan>
+                        <tspan x="9" y="71" fill="#BD10E0">		</tspan>
+                        <tspan x="65" y="71" fill="#9013FE">context_switch()</tspan>
+                        <tspan x="167.956" y="71" fill="#BD10E0">;</tspan>
+                        <tspan x="9" y="90" fill="#BD10E0">	}</tspan>
+                        <tspan x="9" y="109" fill="#BD10E0">}</tspan>
+                    </text>
+                    <rect id="Rectangle-18" stroke="#979797" x="0.5" y="0.5" width="180" height="113"></rect>
+                </g>
+            </g>
+            <g id="system_calls" transform="translate(549.000000, 252.000000)">
+                <path d="M123.5,0.5 L1.5,202.5" id="Line-28" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-28-decoration-1" d="M1.5,202.5 L9.6514329,194.806227 L4.51547081,191.704309 L1.5,202.5 Z" stroke="#979797" stroke-linecap="square"></path>
+                <g id="code" transform="translate(103.000000, 102.000000)">
+                    <text id="wait_event()-{-prepa" font-family="Avenir-Medium, Avenir" font-size="14" font-weight="400">
+                        <tspan x="9" y="14" fill="#BD10E0">wait_event() {</tspan>
+                        <tspan x="9" y="33" fill="#BD10E0">	prepare_to_wait_event();</tspan>
+                        <tspan x="9" y="52" fill="#BD10E0">	schedule() {</tspan>
+                        <tspan x="9" y="71" fill="#BD10E0">		pick_next_task();</tspan>
+                        <tspan x="9" y="90" fill="#BD10E0">		</tspan>
+                        <tspan x="65" y="90" fill="#9013FE">context_switch();</tspan>
+                        <tspan x="171.848" y="90" fill="#BD10E0"></tspan>
+                        <tspan x="9" y="109" fill="#BD10E0">	}</tspan>
+                        <tspan x="9" y="128" fill="#BD10E0">}</tspan>
+                    </text>
+                    <rect id="Rectangle-18" stroke="#979797" x="0.5" y="0.5" width="206" height="132"></rect>
+                </g>
+                <text id="&lt;System-Calls&gt;" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#000000">
+                    <tspan x="141" y="32">&lt;System Calls&gt;</tspan>
+                </text>
+                <text id="e.g.-write()-takes-a" font-family="Avenir-Medium, Avenir" font-size="16" font-weight="400" fill="#000000">
+                    <tspan x="112" y="62">e.g. write() takes awhile, </tspan>
+                    <tspan x="112" y="84">so the process goes to sleep.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

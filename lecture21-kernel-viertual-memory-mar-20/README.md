@@ -4,7 +4,7 @@ When two threads try to modify a variable:
 
 ![unprotected](../img/unprotected.png)
 
-If both threads of execution read the initial value of i before it is incremented, both threads increment and save the same value.As a result, the variable i contains the value 8 when, in fact, it should now contain 9.
+If both threads of execution read the initial value of i before it is incremented, both threads increment and save the same value. As a result, the variable i contains the value 8 when, in fact, it should now contain 9.
 
 To synchronize multi-threaded processes, we need to use locks. 
 
@@ -13,7 +13,9 @@ To synchronize multi-threaded processes, we need to use locks.
 (1) Sleeping Locks
 * When tyring to acquire a semaphore that is unavailable, the task is put onto a wait queue and goes to sleep. The processor is then free to execute other code.
 * When the semaphore becomes available, one of the tasks on the wait queue is awakened so that it can then acquire the semaphore.
-* e.g. semaphores, mutexes
+* Implementation: semaphores, mutexes
+
+
 (2) Spin Locks
 * When a thread tried to acquire a spin lock while it is already held, the thread constantly check if the lock is ready for availability while waiting (spin-waiting). 
 * As soon as the lock becomes available, the thread can immediately acquire the lock and continue.

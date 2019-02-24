@@ -28,6 +28,7 @@ To synchronize multi-threaded processes, we need to use locks.
 NOTE: The main difference between sleeping locks and spin locks is that acquiring a spin lock means it's constantl checking for its availability while sleeping locks do not do constant cpu-exhausting check. 
 
 
+NOTE: Being blocked simply means you are not in the runqueue. After runqueue becomes empty, it looks at the wait queue and puts a task from the wait queue on the runqueue (this information belongs to runqueue section)
 
 # Kernel
 ![virtual-memory](../img/kernel_img.svg)

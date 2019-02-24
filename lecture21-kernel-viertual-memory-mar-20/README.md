@@ -13,14 +13,20 @@ To synchronize multi-threaded processes, we need to use locks.
 (1) Sleeping Locks
 * When tyring to acquire a semaphore that is unavailable, the task is put onto a wait queue and goes to sleep. The processor is then free to execute other code.
 * When the semaphore becomes available, one of the tasks on the wait queue is awakened so that it can then acquire the semaphore.
+* It's ok for a process to go to sleep while holding the lock. 
 * Implementation: semaphores, mutexes
 
 
 (2) Spin Locks
-* When a thread tried to acquire a spin lock while it is already held, the thread constantly check if the lock is ready for availability while waiting (spin-waiting). 
+* When a trying to acquire a spin lock while it is already held, the thread constantly checks if the lock is ready for availability while waiting (spin-waiting). 
 * As soon as the lock becomes available, the thread can immediately acquire the lock and continue.
 * The spinning prevents more than one thread of execution from entering the critical region at any one time.
+* It's not ok for a process to go to sleep while holding the lock because it will exhaust cpu's. 
 * implementation: test_and_set()
+
+
+NOTE: The main difference between sleeping locks and spin locks is that acquiring a spin lock means it's constantl checking for its availability while sleeping locks do not do constant cpu-exhausting check. 
+
 
 
 # Kernel

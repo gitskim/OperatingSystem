@@ -132,6 +132,7 @@ struct waitqueue {
 ```c
 void wait_event(wq, cond) {
 	DEF_WAIT(wait);
+    // forever loop here, because the process needs to be in the wait mode until the cond is true. It breaks out of the forever loop and stops waiting when the condition becomes true and finish_wait().
 	for (;;) {
 		prepare_to_wait(&wq, &wait, T_I);
 		if (cond) {

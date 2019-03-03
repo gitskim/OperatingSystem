@@ -75,7 +75,7 @@ struct task_struct {
 }
 ```
 
-![ts](../img/task_struct.svg)
+![ts](../img/linux_task_structure.svg)
 
 * NOTE: task_struct doesn't have the **list_head**. Instead, init_task of pid 0, a swapper acts like a head. 
 
@@ -120,6 +120,7 @@ struct waitqueue {
 ![wq_head](../img/wait_queues.svg)
 
 * wait queue head is the starting point for wait queues. And each wait_queue points to a task_struct.
+* There are different kinds of wait queues such as lock wait queues, I/O wait queues, so if a process is waiting on I/O, it'd be put on the I/O wait queue. 
 
 # TASK_RUNNING
 

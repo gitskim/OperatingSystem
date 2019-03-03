@@ -147,6 +147,7 @@ void wait_event(wq, cond) {
 	finish_wait(&wq, &wait);
 }
 
+// another way of implementing wait_event 
 do {
 	DEFINE_WAIT(__wait);
 	for (;;) {

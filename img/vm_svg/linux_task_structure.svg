@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="616px" height="790px" viewBox="0 0 616 790" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>linux_task_structure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="72.6642219%" id="linearGradient-1">
+            <stop stop-color="#87BFFA" offset="0%"></stop>
+            <stop stop-color="#D9EFFB" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="144" height="207" rx="8"></rect>
+        <rect id="path-3" x="0" y="0" width="144" height="207" rx="8"></rect>
+        <rect id="path-4" x="0" y="0" width="144" height="207" rx="8"></rect>
+        <rect id="path-5" x="0" y="0" width="144" height="207" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="linux_task_structure" transform="translate(2.000000, 0.000000)">
+            <g id="pid0" transform="translate(218.000000, 0.000000)">
+                <g id="Rectangle-3">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="143" height="206" rx="8"></rect>
+                </g>
+                <path d="M0.5,36.5 L143.5,36.5" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Pid-0" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#000000">
+                    <tspan x="51" y="24">Pid 0</tspan>
+                </text>
+                <path d="M1.5,135.5 L143.503521,135.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,102.5 L143.503521,102.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,169.5 L143.503521,169.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Children" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#8B572A">
+                    <tspan x="35" y="158">Children</tspan>
+                </text>
+                <text id="Parent" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#D0021B">
+                    <tspan x="45" y="124">Parent</tspan>
+                </text>
+                <text id="Sibling" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#BD10E0">
+                    <tspan x="44" y="194">Sibling</tspan>
+                </text>
+            </g>
+            <g id="A" transform="translate(42.000000, 253.000000)">
+                <g id="Rectangle-3">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="143" height="206" rx="8"></rect>
+                </g>
+                <path d="M0.5,36.5 L143.5,36.5" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Process-A" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#000000">
+                    <tspan x="30" y="25">Process A</tspan>
+                </text>
+                <path d="M1.5,135.5 L143.503521,135.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,102.5 L143.503521,102.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,169.5 L143.503521,169.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Children" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#8B572A">
+                    <tspan x="35" y="158">Children</tspan>
+                </text>
+                <text id="Parent" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#D0021B">
+                    <tspan x="45" y="124">Parent</tspan>
+                </text>
+                <text id="Sibling" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#BD10E0">
+                    <tspan x="44" y="194">Sibling</tspan>
+                </text>
+            </g>
+            <g id="B" transform="translate(386.000000, 253.000000)">
+                <g id="Rectangle-3">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="143" height="206" rx="8"></rect>
+                </g>
+                <path d="M0.5,36.5 L143.5,36.5" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Process-B" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#000000">
+                    <tspan x="30" y="25">Process B</tspan>
+                </text>
+                <path d="M1.5,135.5 L143.503521,135.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,102.5 L143.503521,102.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,169.5 L143.503521,169.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Children" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#8B572A">
+                    <tspan x="35" y="158">Children</tspan>
+                </text>
+                <text id="Parent" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#D0021B">
+                    <tspan x="45" y="124">Parent</tspan>
+                </text>
+                <text id="Sibling" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#BD10E0">
+                    <tspan x="44" y="194">Sibling</tspan>
+                </text>
+            </g>
+            <g id="C" transform="translate(386.000000, 537.000000)">
+                <g id="Rectangle-3">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="143" height="206" rx="8"></rect>
+                </g>
+                <path d="M0.5,36.5 L143.5,36.5" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Process-C" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#000000">
+                    <tspan x="30" y="25">Process C</tspan>
+                </text>
+                <path d="M1.5,135.5 L143.503521,135.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,102.5 L143.503521,102.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M1.5,169.5 L143.503521,169.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <text id="Children" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#8B572A">
+                    <tspan x="35" y="158">Children</tspan>
+                </text>
+                <text id="Parent" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#D0021B">
+                    <tspan x="45" y="124">Parent</tspan>
+                </text>
+                <text id="Sibling" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#BD10E0">
+                    <tspan x="44" y="194">Sibling</tspan>
+                </text>
+            </g>
+            <polyline id="Line-4" stroke="#F5A623" stroke-width="4" stroke-linecap="square" points="218 150 0.5 150 0.5 441.386719 37.9563364 441.386719"></polyline>
+            <path id="Line-4-decoration-1" d="M37.9563364,441.386719 L27.1563364,438.386719 L27.1563364,444.386719 L37.9563364,441.386719 Z" stroke="#F5A623" stroke-width="4" stroke-linecap="square"></path>
+            <path d="M186.5,440.5 L380.5,440.5" id="Line-5" stroke="#F5A623" stroke-width="4" stroke-linecap="square"></path>
+            <path id="Line-5-decoration-1" d="M380.5,440.5 L369.7,437.5 L369.7,443.5 L380.5,440.5 Z" stroke="#F5A623" stroke-width="4" stroke-linecap="square"></path>
+            <polyline id="Line-6" stroke="#F5A623" stroke-width="4" stroke-linecap="square" points="537.5 440.5 590.5 440.5 590.5 149.113281 368.9375 149.113281"></polyline>
+            <path id="Line-6-decoration-1" d="M368.9375,149.113281 L379.7375,152.113281 L379.7375,146.113281 L368.9375,149.113281 Z" stroke="#F5A623" stroke-width="4" stroke-linecap="square"></path>
+            <polyline id="Line-7" stroke="#8B572A" stroke-width="4" stroke-linecap="square" points="39.5 408.5 12.5 408.5 12.5 503.011719 216.734375 503.011719 216.734375 408.5 188.359375 408.5"></polyline>
+            <path id="Line-7-decoration-1" d="M188.359375,408.5 L199.159375,411.5 L199.159375,405.5 L188.359375,408.5 Z" stroke="#8B572A" stroke-width="4" stroke-linecap="square"></path>
+            <polyline id="Line-7" stroke="#8B572A" stroke-width="4" stroke-linecap="square" points="385 693 358 693 358 787.511719 562.234375 787.511719 562.234375 693 533.859375 693"></polyline>
+            <path id="Line-7-decoration-1" d="M533.859375,693 L544.659375,696 L544.659375,690 L533.859375,693 Z" stroke="#8B572A" stroke-width="4" stroke-linecap="square"></path>
+            <polyline id="Line-8" stroke="#F5A623" stroke-width="4" stroke-linecap="square" points="386.5 404.5 328.90625 404.5 328.90625 718.910156 386.5 718.910156"></polyline>
+            <path id="Line-8-decoration-1" d="M386.5,718.910156 L375.7,715.910156 L375.7,721.910156 L386.5,718.910156 Z" stroke="#F5A623" stroke-width="4" stroke-linecap="square"></path>
+            <polyline id="Line-9" stroke="#F5A623" stroke-width="5" stroke-linecap="square" points="529.5 722.5 611 722.5 611 404.59375 529.5 404.59375"></polyline>
+            <path id="Line-9-decoration-1" d="M529.5,404.59375 L540.3,407.59375 L540.3,401.59375 L529.5,404.59375 Z" stroke="#F5A623" stroke-width="5" stroke-linecap="square"></path>
+            <polyline id="Line-10" stroke="#D0021B" stroke-width="4" stroke-linecap="square" points="187.5 371.5 195.5 371.5 195.5 15.8671875 215.359375 15.8671875"></polyline>
+            <path id="Line-10-decoration-1" d="M215.359375,15.8671875 L204.559375,12.8671875 L204.559375,18.8671875 L215.359375,15.8671875 Z" stroke="#D0021B" stroke-width="4" stroke-linecap="square"></path>
+            <polyline id="Line-10" stroke="#D0021B" stroke-width="4" stroke-linecap="square" points="385.34375 655.5 361 655.5 361 272 380.859375 272"></polyline>
+            <path id="Line-10-decoration-1" d="M380.859375,272 L370.059375,269 L370.059375,275 L380.859375,272 Z" stroke="#D0021B" stroke-width="4" stroke-linecap="square"></path>
+            <polyline id="Line-11" stroke="#D0021B" stroke-width="4" stroke-linecap="square" points="387.5 373.5 379.5 373.5 379.5 15.21875 358.769531 15.21875"></polyline>
+            <path id="Line-11-decoration-1" d="M358.769531,15.21875 L369.569531,18.21875 L369.569531,12.21875 L358.769531,15.21875 Z" stroke="#D0021B" stroke-width="4" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

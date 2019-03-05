@@ -51,7 +51,7 @@ unlock() {
 }
 ```
 	
-    The atomic test_and_set hardware instruction essentially does the following:
+The atomic test_and_set hardware instruction essentially does the following:
     
 ```c
 	int test_and_set(int *lock) {
@@ -61,50 +61,26 @@ unlock() {
 	}
  ```   
 
-# Kernel
+Process Memory Layout
+---
 ![virtual-memory](../img/kernel_img.svg)
 
-* Kernel code is shared by all processes. 
-* Virtual memory is divided into pages. Each page size is 4K. 
-* **Frame** is the **page** from the physical memory perspective (What you want to store is a page and where you want to store is a frame).
+Kernel data includes things like: 
 
-# Kernel Memory Region
-* 8k size of per-process kernel stack - used while in kernel
-* Recursion in kernel code is not preferred. 
-* task_struct is about 1-2k. Since it's so big, it's never in the stack but allocated in the heap. Both threads and processes are represented as task_struct. 
+- kernel stack for each process (8k for 32-bit and 16k for 64-bit)
+- Linked list of task_struct (`tasks`)
 
-```c
-struct task_struct {
-	struct list-head *rcu_node_entry;
-}
-```
+Runs Queues
+---
 
-![ts](../img/linux_task_structure.svg)
-
-* NOTE: task_struct doesn't have the **list_head**. Instead, init_task of pid 0, a swapper acts like a head. 
-
-* **current**, which is a macro, provides a pointer to the task struct. 
-* When context switch or system mode changes, task_struct needs to be immediately available. Where should the pointer to task_struct be saved?
-
-* The stack pointer gets automatically set to point to the kernel stack by hardware. 
-
-* To get to the bottom of the kernel stack, the following assembly code is used:
-
-```c
-movl $-8192 %eax
-andl %esp %eax
-```
-
-![stack_register](../img/stack_register.svg)
-
-* No matter where the current stack pointer is, it can always go to the bottom of the stack by killing 13 0's at the end of the address, since the stack size is 8k == 2^13.
-
-# Runs Queues
 
 ![run](../img/run_queue.svg)
 
-* The highest priority task will run from a run queue (depending on a scheduler)
-* Being on run queues doesn't necessarily mean it will run
+Process State Transitions
+---
+
+![circle.png](../img/State_transition.svg)
+
 
 # Wait Queues
 * NOTE: we can't have a run queue structure for wait queues because we would end up having way too many list_head structs in task_struct, so we need a different structure for wait queues.
@@ -128,7 +104,7 @@ struct waitqueue {
 
 # TASK_RUNNING
 
-![circle.png](../img/State_transition.svg)
+
 * TASK_RUNNING - misnomer. It means a task is runnable. 
 * schedule(): entry point to the scheduling function in the kernel.
 * e.g. Timer interrupt fires and the timer interrupt updates the kernel process time. Then the handler calls schedule(), which calls pick_next_task(). After that context_switch() gets called, a new process gets to run

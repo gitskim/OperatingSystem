@@ -1,12 +1,6 @@
 Feb 21 2019
 
-When two threads try to modify a variable:
-
-![unprotected](../img/unprotected.png)
-
-If both threads of execution read the initial value of i before it is incremented, both threads increment and save the same value. As a result, the variable i contains the value 8 when, in fact, it should now contain 9.
-
-To synchronize multi-threaded processes, we need to use locks. 
+Recall the bank example:
 
 ```c
 pthread_mutex_lock(&lock);
@@ -15,34 +9,24 @@ pthread_mutex_unlock(&lock);
 ```
 
 ### Two types of locks:
-(1) Sleeping Locks
-* When tyring to acquire a semaphore that is unavailable, the task is put onto a wait queue and goes to sleep. The processor is then free to execute other code.
-* When the semaphore becomes available, one of the tasks on the wait queue is awakened so that it can then acquire the semaphore.
-* It's ok for a process to go to sleep while holding the lock. 
-* e.g.: semaphores, mutexes
+1. Sleeping Locks
+
+2. Spin Locks
 
 
-(2) Spin Locks
-* When a trying to acquire a spin lock while it is already held, the thread constantly checks if the lock is ready for availability while waiting (spin-waiting). 
-* As soon as the lock becomes available, the thread can immediately acquire the lock and continue.
-* The spinning prevents more than one thread of execution from entering the critical region at any one time.
-* It's not ok for a process to go to sleep while holding the lock because it will exhaust cpu's. 
+## Implementing spin lock
 
+1. Wrong implmentation:
 
-NOTE: The main difference between sleeping locks and spin locks is that acquiring a spin lock means it's constantly checking for its availability while sleeping locks do not do constant cpu-exhausting check. 
-
-
-
-## Simple implementation of a lock
 ```c
 int flag = 0;
 
-// checking the value of the flag and changing it 
 lock() {
-    while (flag == 1) {
-        // wait;
-    }
-    // GAP
+    while (flag == 1)
+	;
+
+    // This gap between testing and setting creates a race condition!
+
     flag = 1;
 }
 
@@ -50,12 +34,32 @@ unlock() {
     flag = 0;
 }
 ```
-* Drawback: there is a gap in the lock() function, which enables two threads to go at the same time. 
-
-* Solution: **test_and_set(&flag)** to check the value of the flag and change it at the same time
 
 
-NOTE: Being blocked simply means you are not in the runqueue. After runqueue becomes empty, it looks at the wait queue and puts a task from the wait queue on the runqueue (this information belongs to runqueue section)
+2. Correct implementation using atomic test_and_set hardware instruction:
+
+```c
+int flag = 0;
+
+lock() {
+    while(test_and_set(&flag))
+	;
+}
+
+unlock() {
+    flag = 0;
+}
+```
+	
+    The atomic test_and_set hardware instruction essentially does the following:
+    
+```c
+	int test_and_set(int *lock) {
+	    int old = *lock;
+	    *lock = 1;
+	    return old;
+	}
+ ```   
 
 # Kernel
 ![virtual-memory](../img/kernel_img.svg)

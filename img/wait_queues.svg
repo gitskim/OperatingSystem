@@ -1,256 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="814px" height="391px" viewBox="0 0 814 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="893px" height="411px" viewBox="0 0 893 411" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>wait_queues</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-4.3%" y="-2.8%" width="108.5%" height="108.0%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-2" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
-        <rect id="path-3" x="0" y="0" width="127.631799" height="44.6385965"></rect>
-        <rect id="path-4" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
-        <filter x="-4.3%" y="-2.9%" width="108.5%" height="108.0%" filterUnits="objectBoundingBox" id="filter-5">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-6" x="0" y="0" width="127.631799" height="44.6385965"></rect>
-        <rect id="path-7" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
-        <filter x="-4.3%" y="-2.9%" width="108.5%" height="108.0%" filterUnits="objectBoundingBox" id="filter-8">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-9" x="0" y="0" width="127.631799" height="44.6385965"></rect>
-        <rect id="path-10" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
-        <filter x="-4.3%" y="-2.9%" width="108.5%" height="108.0%" filterUnits="objectBoundingBox" id="filter-11">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-12" x="0" y="0" width="146" height="43"></rect>
-        <rect id="path-13" x="9" y="121" width="146" height="43"></rect>
-        <rect id="path-14" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
-        <filter x="-4.3%" y="-2.9%" width="108.5%" height="108.0%" filterUnits="objectBoundingBox" id="filter-15">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-16" x="0" y="0" width="146" height="43"></rect>
-        <rect id="path-17" x="9" y="121" width="146" height="43"></rect>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.935184),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-18">
+        <radialGradient cx="100%" cy="0%" fx="100%" fy="0%" r="100%" gradientTransform="translate(1.000000,0.000000),scale(1.000000,0.931818),translate(-1.000000,-0.000000)" id="radialGradient-1">
             <stop stop-color="#BBDAE5" offset="0%"></stop>
             <stop stop-color="#E5F1F6" offset="100%"></stop>
         </radialGradient>
-        <rect id="path-19" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
-        <filter x="-4.3%" y="-2.9%" width="108.5%" height="108.0%" filterUnits="objectBoundingBox" id="filter-20">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-21" x="0" y="0" width="146" height="43"></rect>
-        <rect id="path-22" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
-        <filter x="-4.3%" y="-2.9%" width="108.5%" height="108.0%" filterUnits="objectBoundingBox" id="filter-23">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-24" x="0" y="0" width="146" height="43"></rect>
-        <rect id="path-25" x="9" y="121" width="146" height="43"></rect>
+        <radialGradient cx="100%" cy="0%" fx="100%" fy="0%" r="100%" gradientTransform="translate(1.000000,0.000000),scale(1.000000,0.935184),translate(-1.000000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#BBDAE5" offset="0%"></stop>
+            <stop stop-color="#E5F1F6" offset="100%"></stop>
+        </radialGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="wait_queues" transform="translate(4.000000, 2.000000)">
-            <g id="Group-12" transform="translate(210.000000, 206.000000)">
-                <g id="task-struct3" filter="url(#filter-1)" transform="translate(0.000000, 1.000000)">
+        <g id="wait_queues" transform="translate(2.000000, 2.000000)">
+            <g id="Group-12" transform="translate(243.000000, 232.000000)">
+                <g id="task-struct3" transform="translate(0.000000, 1.000000)">
                     <g id="Rectangle-5">
-                        <use fill="#FAE7C8" fill-rule="evenodd" xlink:href="#path-2"></use>
-                        <rect stroke="#979797" stroke-width="1" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
-                    </g>
-                    <g id="Group-25" transform="translate(18.000000, 84.000000)">
-                        <g id="Rectangle-6">
-                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
-                            <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="126.631799" height="43.6385965"></rect>
+                        <g id="path-2-link" fill="#FAE7C8">
+                            <rect id="path-2" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
                         </g>
-                        <text id="list_head" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
-                            <tspan x="28" y="28">list_head</tspan>
+                        <rect id="Rectangle-path" stroke="#979797" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
+                    </g>
+                    <g id="task-struct" transform="translate(22.000000, 24.000000)" fill="#32323B" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600">
+                        <text id="task_struct">
+                            <tspan x="0.5857741" y="24.6334392">task_struct</tspan>
                         </text>
                     </g>
-                    <text id="task-struct" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
-                        <tspan x="22.5857741" y="48.6334392">task struct</tspan>
-                    </text>
                 </g>
                 <g id="task-struct3" transform="translate(219.000000, 0.000000)">
                     <g id="Rectangle-5">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
-                        <use fill="#FAE7C8" fill-rule="evenodd" xlink:href="#path-4"></use>
-                        <rect stroke="#979797" stroke-width="1" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
-                    </g>
-                    <g id="Group-25" transform="translate(17.000000, 85.000000)">
-                        <g id="Rectangle-6">
-                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
-                            <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="126.631799" height="43.6385965"></rect>
+                        <g id="path-4-link" fill="#000000" fill-rule="nonzero">
+                            <rect id="path-4" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
                         </g>
-                        <text id="list_head" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
-                            <tspan x="26" y="28">list_head</tspan>
+                        <g id="path-4-link" fill="#FAE7C8">
+                            <rect id="path-4" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#979797" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
+                    </g>
+                    <g id="task-struct" transform="translate(22.000000, 25.000000)" fill="#32323B" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600">
+                        <text id="task_struct">
+                            <tspan x="0.5857741" y="24.6334392">task_struct</tspan>
                         </text>
                     </g>
-                    <text id="task-struct" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
-                        <tspan x="22.5857741" y="49.6334392">task struct</tspan>
-                    </text>
                 </g>
                 <g id="task-struct3" transform="translate(432.000000, 0.000000)">
                     <g id="Rectangle-5">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
-                        <use fill="#FAE7C8" fill-rule="evenodd" xlink:href="#path-7"></use>
-                        <rect stroke="#979797" stroke-width="1" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
-                    </g>
-                    <g id="Group-25" transform="translate(18.000000, 85.000000)">
-                        <g id="Rectangle-6">
-                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
-                            <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="126.631799" height="43.6385965"></rect>
+                        <g id="path-7-link" fill="#000000" fill-rule="nonzero">
+                            <rect id="path-7" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
                         </g>
-                        <text id="list_head" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
-                            <tspan x="24" y="28">list_head</tspan>
+                        <g id="path-7-link" fill="#FAE7C8">
+                            <rect id="path-7" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#979797" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
+                    </g>
+                    <g id="task-struct" transform="translate(22.000000, 24.000000)" fill="#32323B" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600">
+                        <text id="task_struct">
+                            <tspan x="0.5857741" y="24.6334392">task_struct</tspan>
                         </text>
                     </g>
-                    <text id="task-struct" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
-                        <tspan x="22.5857741" y="48.6334392">task struct</tspan>
-                    </text>
                 </g>
             </g>
-            <g id="task-struct3" transform="translate(429.000000, 0.000000)">
+            <g id="task-struct3" transform="translate(462.000000, 26.000000)">
                 <g id="Rectangle-5">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
-                    <use fill="#E5F1F6" fill-rule="evenodd" xlink:href="#path-10"></use>
-                    <rect stroke="#979797" stroke-width="1" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
+                    <g id="path-10-link" fill="#000000" fill-rule="nonzero">
+                        <rect id="path-10" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                    </g>
+                    <g id="path-10-link" fill="#E5F1F6">
+                        <rect id="path-10" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#979797" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
                 </g>
                 <g id="Group-25" transform="translate(9.000000, 69.000000)">
                     <g id="Rectangle-6">
-                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-12"></use>
-                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="145" height="42"></rect>
+                        <g id="path-12-link" fill="#D8D8D8">
+                            <rect id="path-12" x="0" y="0" width="146" height="43"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="145" height="42"></rect>
                     </g>
-                    <text id="list_head" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
-                        <tspan x="35" y="27">list_head</tspan>
+                    <g id="list_head" transform="translate(35.000000, 9.000000)" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="18">list_head</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle-20" transform="translate(9.000000, 121.000000)">
+                    <g id="path-13-link" fill="#D8D8D8">
+                        <rect id="path-13" x="0" y="0" width="146" height="43"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="145" height="42"></rect>
+                </g>
+                <g id="wait-queue" transform="translate(23.000000, 11.000000)" fill="#32323B" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600">
+                    <text id="waitqueue">
+                        <tspan x="0" y="24">waitqueue</tspan>
                     </text>
                 </g>
-                <g id="Rectangle-20">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-13"></use>
-                    <rect stroke="#979797" stroke-width="1" x="9.5" y="121.5" width="145" height="42"></rect>
+                <g id="task_struct-*p" transform="translate(65.000000, 128.000000)" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal">
+                    <text id="task">
+                        <tspan x="0" y="20">task</tspan>
+                    </text>
                 </g>
-                <text id="wait-queue" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
-                    <tspan x="18" y="35">wait queue</tspan>
-                </text>
-                <text id="task_struct-*p" font-family="Avenir-Medium, Avenir" font-size="20" font-weight="400" fill="#32323B">
-                    <tspan x="18" y="148">task_struct *p</tspan>
-                </text>
             </g>
-            <g id="task-struct3" transform="translate(210.000000, 2.000000)">
+            <g id="task-struct3" transform="translate(243.000000, 28.000000)">
                 <g id="Rectangle-5">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
-                    <use fill="#E5F1F6" fill-rule="evenodd" xlink:href="#path-14"></use>
-                    <rect stroke="#979797" stroke-width="1" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
+                    <g id="path-14-link" fill="#000000" fill-rule="nonzero">
+                        <rect id="path-14" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                    </g>
+                    <g id="path-14-link" fill="#E5F1F6">
+                        <rect id="path-14" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#979797" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
                 </g>
                 <g id="Group-25" transform="translate(9.000000, 69.000000)">
                     <g id="Rectangle-6">
-                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-16"></use>
-                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="145" height="42"></rect>
+                        <g id="path-16-link" fill="#D8D8D8">
+                            <rect id="path-16" x="0" y="0" width="146" height="43"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="145" height="42"></rect>
                     </g>
-                    <text id="list_head" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
-                        <tspan x="39" y="26">list_head</tspan>
+                    <g id="list_head" transform="translate(39.000000, 8.000000)" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="18">list_head</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle-20" transform="translate(9.000000, 121.000000)">
+                    <g id="path-17-link" fill="#D8D8D8">
+                        <rect id="path-17" x="0" y="0" width="146" height="43"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="145" height="42"></rect>
+                </g>
+                <g id="wait-queue" transform="translate(25.000000, 11.000000)" fill="#32323B" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600">
+                    <text id="waitqueue">
+                        <tspan x="0" y="24">waitqueue</tspan>
                     </text>
                 </g>
-                <g id="Rectangle-20">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-17"></use>
-                    <rect stroke="#979797" stroke-width="1" x="9.5" y="121.5" width="145" height="42"></rect>
+                <g id="task_struct-*p" transform="translate(66.000000, 128.000000)" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal">
+                    <text id="task">
+                        <tspan x="0" y="20">task</tspan>
+                    </text>
                 </g>
-                <text id="wait-queue" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
-                    <tspan x="18" y="35">wait queue</tspan>
-                </text>
-                <text id="task_struct-*p" font-family="Avenir-Medium, Avenir" font-size="20" font-weight="400" fill="#32323B">
-                    <tspan x="18" y="148">task_struct *p</tspan>
-                </text>
             </g>
-            <g id="task-struct3" transform="translate(0.000000, 4.000000)">
+            <g id="task-struct3" transform="translate(33.000000, 30.000000)">
                 <g id="Rectangle-5">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
-                    <use fill="url(#radialGradient-18)" fill-rule="evenodd" xlink:href="#path-19"></use>
-                    <rect stroke="#979797" stroke-width="1" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
+                    <g id="path-19-link" fill="#000000" fill-rule="nonzero">
+                        <rect id="path-19" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                    </g>
+                    <g id="path-19-link" fill="url(#radialGradient-2)">
+                        <rect id="path-19" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#979797" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
                 </g>
                 <g id="Group-25" transform="translate(9.000000, 69.000000)">
                     <g id="Rectangle-6">
-                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-21"></use>
-                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="145" height="42"></rect>
+                        <g id="path-21-link" fill="#D8D8D8">
+                            <rect id="path-21" x="0" y="0" width="146" height="43"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="145" height="42"></rect>
                     </g>
-                    <text id="list_head" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
-                        <tspan x="34" y="27">list_head</tspan>
+                    <g id="list_head" transform="translate(34.000000, 9.000000)" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="18">list_head</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="WQ-HEAD" transform="translate(24.000000, 10.000000)" fill="#32323B" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600">
+                    <text id="wq_head">
+                        <tspan x="0" y="24">wq_head</tspan>
                     </text>
                 </g>
-                <text id="WQ-HEAD" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
-                    <tspan x="18" y="35">WQ HEAD</tspan>
-                </text>
             </g>
-            <path d="M511.5,160 L511.5,217.5" id="Line-23" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
-            <path id="Line-23-decoration-1" d="M511.5,217.5 L514.5,206.7 L508.5,206.7 L511.5,217.5 Z" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
-            <path d="M293.5,160 L293.5,217.5" id="Line-23" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
-            <path id="Line-23-decoration-1" d="M293.5,217.5 L296.5,206.7 L290.5,206.7 L293.5,217.5 Z" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
-            <g id="task-struct3" transform="translate(642.000000, 0.000000)">
+            <path d="M544.5,186 L544.5,243.5" id="Line-23" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
+            <polygon id="Line-23-decoration-1" stroke="#D3A963" stroke-width="4" stroke-linecap="square" points="544.5 243.5 547.5 232.7 541.5 232.7"></polygon>
+            <path d="M326.5,186 L326.5,243.5" id="Line-23" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
+            <polygon id="Line-23-decoration-1" stroke="#D3A963" stroke-width="4" stroke-linecap="square" points="326.5 243.5 329.5 232.7 323.5 232.7"></polygon>
+            <g id="task-struct3" transform="translate(675.000000, 26.000000)">
                 <g id="Rectangle-5">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
-                    <use fill="#E5F1F6" fill-rule="evenodd" xlink:href="#path-22"></use>
-                    <rect stroke="#979797" stroke-width="1" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
+                    <g id="path-22-link" fill="#000000" fill-rule="nonzero">
+                        <rect id="path-22" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                    </g>
+                    <g id="path-22-link" fill="#E5F1F6">
+                        <rect id="path-22" x="0" y="0.633439201" width="164" height="175.366561" rx="11"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#979797" x="0.5" y="1.1334392" width="163" height="174.366561" rx="11"></rect>
                 </g>
                 <g id="Group-25" transform="translate(9.000000, 69.000000)">
                     <g id="Rectangle-6">
-                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-24"></use>
-                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="145" height="42"></rect>
+                        <g id="path-24-link" fill="#D8D8D8">
+                            <rect id="path-24" x="0" y="0" width="146" height="43"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="145" height="42"></rect>
                     </g>
-                    <text id="list_head" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal" fill="#32323B">
-                        <tspan x="36" y="27">list_head</tspan>
+                    <g id="list_head" transform="translate(36.000000, 9.000000)" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="18">list_head</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle-20" transform="translate(9.000000, 121.000000)">
+                    <g id="path-25-link" fill="#D8D8D8">
+                        <rect id="path-25" x="0" y="0" width="146" height="43"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="145" height="42"></rect>
+                </g>
+                <g id="wait-queue" transform="translate(24.000000, 11.000000)" fill="#32323B" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600">
+                    <text id="waitqueue">
+                        <tspan x="0" y="24">waitqueue</tspan>
                     </text>
                 </g>
-                <g id="Rectangle-20">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-25"></use>
-                    <rect stroke="#979797" stroke-width="1" x="9.5" y="121.5" width="145" height="42"></rect>
+                <g id="task_struct-*p" transform="translate(64.000000, 127.000000)" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal">
+                    <text id="task">
+                        <tspan x="0" y="20">task</tspan>
+                    </text>
                 </g>
-                <text id="wait-queue" font-family="Avenir-Heavy, Avenir" font-size="24" font-weight="600" fill="#32323B">
-                    <tspan x="18" y="35">wait queue</tspan>
-                </text>
-                <text id="task_struct-*p" font-family="Avenir-Medium, Avenir" font-size="20" font-weight="400" fill="#32323B">
-                    <tspan x="18" y="148">task_struct *p</tspan>
-                </text>
             </g>
-            <path d="M722.5,160 L722.5,217.5" id="Line-23" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
-            <path id="Line-23-decoration-1" d="M722.5,217.5 L725.5,206.7 L719.5,206.7 L722.5,217.5 Z" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
-            <g id="Group-11" transform="translate(590.000000, 88.000000)" stroke="#6F95B3" stroke-linecap="square" stroke-width="2">
-                <path d="M0,1 L54.6015625,1" id="Line-22"></path>
-                <path id="Line-22-decoration-1" d="M54.6015625,1 L43.8015625,-2 L43.8015625,4 L54.6015625,1 Z"></path>
-                <path d="M52.6015625,1 L0,1" id="Line-22"></path>
-                <path id="Line-22-decoration-1" d="M0,1 L10.8,4 L10.8,-2 L0,1 Z"></path>
+            <path d="M755.5,186 L755.5,243.5" id="Line-23" stroke="#D3A963" stroke-width="4" stroke-linecap="square"></path>
+            <polygon id="Line-23-decoration-1" stroke="#D3A963" stroke-width="4" stroke-linecap="square" points="755.5 243.5 758.5 232.7 752.5 232.7"></polygon>
+            <g id="Group-11" stroke-linecap="square" transform="translate(623.000000, 112.000000)" stroke="#6F95B3" stroke-width="2">
+                <path d="M0,3 L54.6015625,3" id="Line-22"></path>
+                <polygon id="Line-22-decoration-1" points="54.6015625 3 43.8015625 0 43.8015625 6"></polygon>
+                <path d="M52.6015625,3 L0,3" id="Line-22"></path>
+                <polygon id="Line-22-decoration-1" points="0 3 10.8 6 10.8 0"></polygon>
             </g>
-            <g id="Group-11" transform="translate(374.000000, 91.000000)" stroke="#6F95B3" stroke-linecap="square" stroke-width="2">
-                <path d="M0,1 L54.6015625,1" id="Line-22"></path>
-                <path id="Line-22-decoration-1" d="M54.6015625,1 L43.8015625,-2 L43.8015625,4 L54.6015625,1 Z"></path>
-                <path d="M52.6015625,1 L0,1" id="Line-22"></path>
-                <path id="Line-22-decoration-1" d="M0,1 L10.8,4 L10.8,-2 L0,1 Z"></path>
+            <polyline id="Line" stroke="#6F95B3" stroke-width="3" stroke-linecap="square" points="840.5 116.5 889.5 116.5 889.5 0.25 807.933594 0.25 0.485766316 0.25 0.485766316 116.5 40.1914062 116.5"></polyline>
+            <path id="Line-decoration-1" d="M40.1914062,116.5 L29.3914063,113.5 L29.3914063,119.5 L40.1914062,116.5 Z" stroke="#6F95B3" stroke-width="3" stroke-linecap="square"></path>
+            <g id="Group-11" stroke-linecap="square" transform="translate(407.000000, 115.000000)" stroke="#6F95B3" stroke-width="2">
+                <path d="M0,3 L54.6015625,3" id="Line-22"></path>
+                <polygon id="Line-22-decoration-1" points="54.6015625 3 43.8015625 0 43.8015625 6"></polygon>
+                <path d="M52.6015625,3 L0,3" id="Line-22"></path>
+                <polygon id="Line-22-decoration-1" points="0 3 10.8 6 10.8 0"></polygon>
             </g>
-            <g id="Group-11" transform="translate(160.000000, 92.000000)" stroke="#6F95B3" stroke-linecap="square" stroke-width="2">
-                <path d="M0,1 L54.6015625,1" id="Line-22"></path>
-                <path id="Line-22-decoration-1" d="M54.6015625,1 L43.8015625,-2 L43.8015625,4 L54.6015625,1 Z"></path>
-                <path d="M52.6015625,1 L0,1" id="Line-22"></path>
-                <path id="Line-22-decoration-1" d="M0,1 L10.8,4 L10.8,-2 L0,1 Z"></path>
+            <g id="Group-11" stroke-linecap="square" transform="translate(193.000000, 116.000000)" stroke="#6F95B3" stroke-width="2">
+                <path d="M0,3 L54.6015625,3" id="Line-22"></path>
+                <polygon id="Line-22-decoration-1" points="54.6015625 3 43.8015625 0 43.8015625 6"></polygon>
+                <path d="M52.6015625,3 L0,3" id="Line-22"></path>
+                <polygon id="Line-22-decoration-1" points="0 3 10.8 6 10.8 0"></polygon>
             </g>
         </g>
     </g>

@@ -100,18 +100,18 @@
             <g id="event_ready" transform="translate(0.000000, 374.000000)">
                 <g id="Group-21">
                     <g id="code">
-                        <g id="wake_up_process()-{" transform="translate(16.000000, 16.000000)" fill="#000000" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal">
+                        <g id="wake_up_process()-{" transform="translate(16.000000, 14.000000)" fill="#000000" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal">
                             <text id="wake_up()">
                                 <tspan x="0" y="14">wake_up()</tspan>
                             </text>
                             <text id="try_to_wake_up()">
-                                <tspan x="0" y="35">	try_to_wake_up() </tspan>
+                                <tspan x="26" y="37">try_to_wake_up() </tspan>
                             </text>
                             <text id="//-state-=-TASK_RUNN">
-                                <tspan x="24" y="58">	// state = TASK_RUNNING</tspan>
+                                <tspan x="51" y="60">// state = TASK_RUNNING</tspan>
                             </text>
                             <text id="//-put-proc-back-int">
-                                <tspan x="24" y="80">	// put proc back into RQ</tspan>
+                                <tspan x="50" y="82">// put proc back into RQ</tspan>
                             </text>
                         </g>
                         <rect id="Rectangle-18" stroke="#979797" x="0.5" y="0.5" width="246" height="123.5"></rect>
@@ -126,7 +126,7 @@
                                 <tspan x="0" y="14">Signal received</tspan>
                             </text>
                             <text id="put-proc-back-into-R">
-                                <tspan x="0" y="33">	put proc back into RQ</tspan>
+                                <tspan x="28" y="33">put proc back into RQ</tspan>
                             </text>
                             <text id="when-it-runs,-signal">
                                 <tspan x="27" y="55">when it runs, signal handler runs</tspan>
@@ -139,12 +139,12 @@
             <g id="rq_to_cpu" transform="translate(252.000000, 115.000000)">
                 <path d="M428,3 L7,3" id="Line-24" stroke="#979797" stroke-linecap="square"></path>
                 <polygon id="Line-24-decoration-1" stroke="#979797" stroke-linecap="square" points="0 3 10.8 6 10.8 0"></polygon>
-                <text id="Preemption-(e.g.-by" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="18" font-weight="normal">
-                    <tspan x="170.344" y="34">Preemption</tspan>
-                    <tspan x="124.039" y="59">(e.g. by timer interrupt)</tspan>
+                <text id="Preemption-(e.g.-by" fill="#32323B" font-family="Avenir-Book, Avenir" font-size="14" font-weight="normal">
+                    <tspan x="176.212" y="34">Preemption</tspan>
+                    <tspan x="140.197" y="53">(e.g. by timer interrupt)</tspan>
                 </text>
-                <g id="code" transform="translate(116.000000, 3.000000)" stroke="#979797">
-                    <rect id="Rectangle-18" x="0" y="0" width="201" height="94"></rect>
+                <g id="code" transform="translate(120.000000, 3.000000)" stroke="#979797">
+                    <rect id="Rectangle-18" x="0" y="0" width="180" height="75"></rect>
                 </g>
             </g>
             <g id="system_calls" transform="translate(640.000000, 233.000000)">

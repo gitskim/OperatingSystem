@@ -2,10 +2,11 @@ Feb 21 2019
 
 Recall the bank example:
 
-	pthread_mutex_lock(&lock);
-	balance++;
-	pthread_mutex_unlock(&lock);
-
+```c
+pthread_mutex_lock(&lock);
+balance++;
+pthread_mutex_unlock(&lock);
+```
 
 ### Two types of locks:
 1. Sleeping Locks
@@ -17,44 +18,48 @@ Recall the bank example:
 
 1. Wrong implmentation:
 
+```c
+int flag = 0;
 
-	int flag = 0;
+lock() {
+    while (flag == 1)
+	;
 
-	lock() {
-	    while (flag == 1)
-		;
+    // This gap between testing and setting creates a race condition!
 
-	    // This gap between testing and setting creates a race condition!
+    flag = 1;
+}
 
-	    flag = 1;
-	}
-
-	unlock() {
-	    flag = 0;
-	}
+unlock() {
+    flag = 0;
+}
+```
 
 
 2. Correct implementation using atomic test_and_set hardware instruction:
 
-	int flag = 0;
+```c
+int flag = 0;
 
-	lock() {
-	    while(test_and_set(&flag))
-	    	;
-	}
+lock() {
+    while(test_and_set(&flag))
+	;
+}
 
-	unlock() {
-	    flag = 0;
-	}
+unlock() {
+    flag = 0;
+}
+```
 	
     The atomic test_and_set hardware instruction essentially does the following:
     
+```c
 	int test_and_set(int *lock) {
 	    int old = *lock;
 	    *lock = 1;
 	    return old;
 	}
-    
+ ```   
 
 # Kernel
 ![virtual-memory](../img/kernel_img.svg)

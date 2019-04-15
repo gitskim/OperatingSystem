@@ -26,12 +26,12 @@
 * In order to address 2^20 address, two 16 bits were used and the 12 bits were overlapped. 
 * 16-bit segment registers were used to denote the starting point of where your code is. -> So the code can't be more than 2^16 = 64k. 
 
-# 32 bit
-
+# Memory Segmentation (32 bit) (not used anymore. replaced by paging)
 
 ![physical.png](../img/physical.png)
 * Segment registers are no longer needed in 32-bit, so in Linux they are all set to 0 (they are still 16-bit). Overlapping segment for the entire memory.  
 * offset became a real physical address in 32 bit. 
+* Difference between paging and segmentation: https://techdifferences.com/difference-between-paging-and-segmentation-in-os.html
 
 # Page translation
 * Address bits = virtual page number (which of the page it is) + page offset (within the 4k page, where you are)
@@ -133,6 +133,7 @@
 * When "execl" gets called, mmap() is done to point to the ./a.out's beginning fo the file and make it so that frame has been swapped out. 
 
 ## Swapping
+* If there isn't enough space in RAM, blocked processes or old processes will be temporarily swapped out of RAM to a hard disc and those swapped processes are brought back later. 
 * If a page got swapped out, the frame number can now be used to locate where it is located in the disk with the 0 present bit. Because page table is per process, in the process where the pages got swapped out, it will have the present bit 0 and disk location is saved in the PTE entry instead of saving physical frame number. And another process, if it's using swapped out memoiry, it can freely refer to it, because page table is per process.
 * Even in the same process they can still refer to swapped out frame numbers, beacuse swap file location in the disk is saved in hte PTE. 
  
